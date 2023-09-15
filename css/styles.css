@@ -1,7 +1,17 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
@@ -9,7 +19,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 10% auto;
+    
 }
 
 .container > * {
@@ -39,28 +49,26 @@ body {
 }
 
 .item:nth-child(1) {
-    background-color: #fda219;
+    background-color: hsl(31, 77%, 52%);
 }
-
 .item:nth-child(2) {
-    background-color: #0f6a61;
+    background-color: hsl(184, 100%, 22%);
 }
 
 .item:nth-child(3) {
-    background-color: #106247;
+    background-color: hsl(179, 100%, 13%);
 }
 
-.icon {
-    width: 50px;
-    height: 50px;
-    border-radius: 100px;
-    background-color: black;
-    opacity: 0.2;
+.title h1 {
+    font-family:'Big Shoulders Display', cursive;
 }
 
- .icon .fa-solid {
-    width: 30px;
-    height: 30px;
+.icon img {
+    padding-bottom: 2em;
+}
+
+.desc {
+    padding-top: 2em;
 }
 
 .btn button {
