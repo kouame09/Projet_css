@@ -71,6 +71,11 @@ body {
     padding-top: 2em;
 }
 
+.desc p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+
 .btn button {
     border: 0;
     width: 100px;
