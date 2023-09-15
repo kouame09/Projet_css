@@ -80,13 +80,13 @@ body {
 }
 
 .btn1 button {
-    color: #fda219;
+    color: hsl(31, 77%, 52%);
 }
 
 .btn2 button {
-    color: #0f6a61;
+    color: hsl(184, 100%, 22%)
 }
 
 .btn3 button {
-    color: #106247;
+    color: hsl(179, 100%, 13%);
 }
